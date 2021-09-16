@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
 
@@ -43,47 +44,30 @@
       
     </nav>
 
-    <div class="container">
+
+    <div class="container bg-white" style="margin-top: 30px">
+        <h1>Comaprison: Latitude vs X</h1><br>
+        Click any plot to get an in-depth analysis.<p></p>
         <div class="row">
-            <div class="col-lg-6 bg-white" style="margin-right: 20px; padding: 30px">
-                <div><h1>Summary: Latitude vs. X</h1></div>
-
-                <div class="home-image">
-                    <img src="Resources\assets\images\Fig1.png">
-                </div>
-
-                <div class="main-text">
-                    The purpose of this project was to analyze how wheather changes as you get closer to the equator. To accomlish this analysis, we fist pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.<p><p>
-                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidty.
-                    This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
-                </div>
-
+            <div class="col-lg-6">
+            <h3>vs. Max Temperature</h3>
+                <a href="visualizations\temp_vs_lat.html"><img src="Resources\assets\images\Fig1.png" class="img-fluid"></a>
             </div>
-
-            <div class="col-lg-4 bg-white" style="padding: 30px">
-                <div class="chart">
-                    <h2>Visualizations</h2>
-                    <div class="row">
-                        <div class="col-3 col-lg-6">
-                            <img src="Resources\assets\images\Fig1.png">
-                        </div>
-                        <div class="col-3 col-lg-6">
-                            <img src="Resources\assets\images\Fig2.png">
-                        </div>
-                        <div class="col-3 col-lg-6">
-                            <img src="Resources\assets\images\Fig3.png">
-                        </div>
-                        <div class="col-3 col-lg-6">
-                            <img src="Resources\assets\images\Fig4.png">
-                        </div>                    
-                    </div>
-                </div>
+            <div class="col-lg-6">
+                <h3>vs. Humidity</h3>
+                <a href="visualizations\humidity_vs_lat.html"><img src="Resources\assets\images\Fig2.png" class="img-fluid"></a>
             </div>
+            <div class="col-lg-6">
+                <h3>vs. Cloudiness</h3>
+                <a href="visualizations\cloud_vs_lat.html"><img src="Resources\assets\images\Fig3.png" class="img-fluid"></a>
+            </div>
+            <div class="col-lg-6">
+                <h3>vs. Wind Speed</h3>
+                <a href="visualizations\wind_vs_lat.html"><img src="Resources\assets\images\Fig4.png" class="img-fluid"></a>
+            </div>  
         </div>
-    </container>
-
-
-
+        </div>  
+    </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

@@ -1,0 +1,55 @@
+body
+{
+background-color: gainsboro;
+}
+
+.navbar-brand
+{
+padding: 10px;
+background: mediumaquamarine;
+color: white;
+}
+
+h1
+{
+color: mediumaquamarine;
+}
+
+h2
+{
+color: mediumaquamarine;
+}
+
+.container
+{
+padding: 30px;
+}
+
+.table-responsive
+{
+padding: 30px;
+}
+
+.chart img
+{
+width: 150px;
+height: 150px;
+}
+
+h3
+{
+color: mediumaquamarine;
+text-align: center;
+}
+
+.home-image img
+{
+width: 200px;
+height: 200px;
+float: left;
+}
+
+.active
+{
+border: 2px solid mediumaquamarine;
+}
